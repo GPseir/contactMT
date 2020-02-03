@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import './CSS/modals.css';
+
+body {
+    background-image: url('images/cms.jpg');
+    background-color: rgba(255, 255, 255, 0.22);
+    background-blend-mode: lighten;
+    color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 48px;
+    text-shadow: 5px 5px 5px black;
+}
+
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 100px;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px rgb(66, 66, 66);
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 80px;
+    font-size: 32px;
+    text-shadow: 5px 5px 5px rgb(66, 66, 66);
+}
+
+/* index.html */
+
+.seeContainer {
+    background-color: rgba(0, 0, 0, 0.788);
+    width: 60%;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    z-index: 99;
+    top: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeContacts {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seeContactsBtn {
+    border-radius: 10px;
+    border: none;
+    padding: 20px 100px;
+    color: white;
+    font-size: large;
+    background-color: rgba(236, 54, 69, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* cmt.html */
+
+.cmt-table-container {
+    font-size: 20px;
+    margin-top: 35px;
+    width: 60%;
+    margin: auto;
+    display: flexbox;
+}
+
+.cmt-table-row {
+    display: flex;
+}
+
+.cmt-table-column {
+    background-color: rgba(236, 54, 68, 0.8);
+    text-align: center;
+    margin: 2px;
+    padding: 5px 25px 5px 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    white-space: normal;
+    height: 70px;
+    line-height: 70px;
+    flex-basis: 20%;
+}
+
+.cmt-name,
+#cmt-name {
+    flex-basis: 20%;
+}
+
+.cmt-avatar,
+#avatar {
+    flex-basis: 20%;
+}
+
+.cmt-position {
+    flex-basis: 30%;
+}
+
+.cmt-det,
+.cmt-full {
+    flex-basis: 20%;
+}
+
+.cmt-full {
+    background: rgba(4, 4, 77, 0.8);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cmt-full:hover {
+    background: rgba(11, 11, 121, 0.9);
+}
+
+.cmt-favorite,
+.cmt-fav,
+#cmt-fav {
+    flex-basis: 10%;
+}
+
+.cmt-sort {
+    background: rgba(80, 0, 0, 0.9) !important;
+}
+
+.cmt-sort,
+.cmt-edit {
+    flex-basis: 20%;
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cmt-sort:hover {
+    background: rgba(131, 0, 0, 0.9) !important;
+}
+
+.cmt-add-entry-column:hover {
+    background: rgba(68, 155, 68, 0.8) !important;
+}
+
+.cmt-add-entry-column {
+    text-align: center;
+    background: rgba(120, 158, 207, 0.8) !important;
+    cursor: pointer;
+}
+
+.cmt-add-entry-column,
+.cmt-delete {
+    flex-basis: 20%;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cmt-header {
+    background-color: rgba(36, 3, 5, 0.9);
+    font-weight: bolder;
+}
+
+.cmt-edit {
+    background: rgba(77, 107, 189, 0.8);
+}
+
+.cmt-edit:hover {
+    background: rgba(46, 83, 185, 0.8);
+}
+
+.cmt-delete {
+    background: rgba(194, 22, 22, 0.8);
+}
+
+.cmt-delete:hover {
+    background: rgba(236, 7, 7, 0.8);
+}
+
+i {
+    pointer-events: none;
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    .navigation {
+        justify-content: space-around;
+    }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+    .navigation {
+        flex-direction: column;
+    }
+}

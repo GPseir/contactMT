@@ -1,0 +1,72 @@
+{
+	"Contact1": {
+		"id": 1,
+		"name": "James",
+		"fullName": "James_Smith",
+		"avatar": "<img src='../images/av1.png' alt='avatar1' height='70' width='70'>",
+		"jobPosition": "Backend_Developer",
+		"email": "jamessm@gmail.com",
+		"address": "1168 _Skips_Lane",
+		"favorite": true
+	},
+	"Contact2": {
+		"id": 2,
+		"name": "Michael",
+		"fullName": "Michael_O'Ryan",
+		"avatar": "<img src='../images/av2.png' alt='avatar2' 'height'='70' width='70'>",
+		"jobPosition": "DevOps_Engineer",
+		"email": "michael@gmail.com",
+		"address": "4692_Stockert_Hollow_Road",
+		"favorite": false
+	},
+	"Contact3": {
+		"id": 3,
+		"name": "George",
+		"fullName": "George_Gelbero",
+		"avatar": "<img src='../images/av3.png' alt='avatar3' 'height'='70' width='70'>",
+		"jobPosition": "Frontend_Developer",
+		"email": "geogelb@gmail.com",
+		"address": "2766_Hazelwood_Avenue",
+		"favorite": true
+	},
+	"Contact4": {
+		"id": 4,
+		"name": "Samantha",
+		"fullName": "Samantha_O'Sullivan",
+		"avatar": "<img src='../images/av4.png' alt='avatar4' 'height'='70' width='70'>",
+		"jobPosition": "Software_Developer",
+		"email": "samantha@hotmail.com",
+		"address": "4808_Raver_Croft_Drive",
+		"favorite": false
+	},
+	"Contact5": {
+		"id": 5,
+		"name": "Amelia",
+		"fullName": "Amelia_Garcia",
+		"avatar": "<img src='../images/av5.png' alt='avatar5' 'height'='70' width='70'>",
+		"jobPosition": "Human_Resources",
+		"email": "ameliagarcia@hotmail.com",
+		"address": "3872_Freedom_Lane",
+		"favorite": true
+	},
+	"Contact6": {
+		"id": 6,
+		"name": "Jennifer",
+		"fullName": "Jennifer_Williams",
+		"avatar": "<img src='../images/av6.png' alt='avatar6' 'height'='70' width='70'>",
+		"jobPosition": "Data_Scientist",
+		"email": "jenwilliams@gmail.com",
+		"address": "3943_Green_Hill_Road",
+		"favorite": false
+	},
+	"Contact7": {
+		"id": 7,
+		"name": "Alexander",
+		"fullName": "Alexander_Anderson",
+		"avatar": "<img src='../images/av7.png' alt='avatar7' 'height'='70' width='70'>",
+		"jobPosition": "Project_Manager",
+		"email": "alexanderson@gmail.com",
+		"address": "4544_Black_Stallion_Street",
+		"favorite": false
+	}
+}

@@ -1,0 +1,92 @@
+#confirm-Modal {
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 99;
+    top: 300px;
+    position: absolute;
+    margin-left: calc(50% - 250px);
+    background: rgba(236, 91, 91, 0.8);
+}
+
+#backdrop-confirm-Modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    top: 0;
+    left: 0;
+}
+
+#delContact {
+    background: rgba(112, 18, 18, 0.6);
+    font-family: sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+#confirmDelContact {
+    font-family: sans-serif;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 5px 5px 5px rgb(8, 8, 8);
+}
+
+.confBtns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Buttons */
+#confirmCancelBtn {
+    background: rgb(180, 175, 228);
+}
+
+#confirmCancelBtn:hover {
+    background-color: rgb(107, 106, 201);
+    color: white;
+}
+
+#confirmDeleteBtn {
+    background: rgba(112, 18, 18, 0.8);
+}
+
+#confirmDeleteBtn:hover {
+    background: rgb(156, 4, 4);
+    color: white;
+}
+
+
+
+
+#editCancelBtn {
+    background-color: rgba(189, 115, 115, 0.8);
+}
+
+#editCancelBtn:hover {
+    background-color: rgb(151, 47, 47);
+}
+
+#editSubmitBtn {
+    background-color: rgba(119, 151, 187, 0.8);
+}
+
+#editSubmitBtn:hover {
+    background-color: rgb(47, 95, 151);
+}
+
+.disable-confirm-modal {
+    visibility: hidden;
+}
+
+.enable-confirm-modal {
+    visibility: visible;
+}

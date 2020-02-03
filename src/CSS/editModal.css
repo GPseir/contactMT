@@ -1,0 +1,106 @@
+#edit-modal {
+    width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 99;
+    top: 150px;
+    position: absolute;
+    margin-left: calc(50% - 250px);
+    background-color: rgba(94, 129, 226, 0.8);
+}
+
+#editCon {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 36px;
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#edit-modal input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 3px;
+    width: 96%;
+}
+
+#edit-modal select,
+option {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 3px;
+    width: 100%;
+}
+
+.input-err {
+    background-color: rgb(250, 181, 181);
+}
+
+#backdrop-edit-modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    top: 0;
+    left: 0;
+}
+
+/* Input Fields */
+#editName {
+    background-color: rgb(245, 239, 239);
+}
+
+#editFullName {
+    background-color: rgb(245, 239, 239);
+}
+
+#editAvatar {
+    background-color: rgb(245, 239, 239);
+}
+
+#editPosition {
+    background-color: rgb(245, 239, 239);
+}
+
+#editFav {
+    background-color: rgb(245, 239, 239);
+}
+
+#editEmail {
+    background-color: rgb(245, 239, 239);
+}
+
+#editAddress {
+    background-color: rgb(245, 239, 239);
+}
+
+/* Buttons */
+#editCancelBtn {
+    background-color: rgba(189, 115, 115, 0.8);
+}
+
+#editCancelBtn:hover {
+    background-color: rgb(151, 47, 47);
+}
+
+#editSubmitBtn {
+    background-color: rgba(119, 151, 187, 0.8);
+}
+
+#editSubmitBtn:hover {
+    background-color: rgb(47, 95, 151);
+}
+
+/* Enable - Disable Edit Modal */
+.disable-edit-modal {
+    visibility: hidden;
+    /* visibility: visible; */
+}
+
+.enable-edit-modal {
+    visibility: visible;
+}

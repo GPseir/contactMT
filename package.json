@@ -1,0 +1,25 @@
+{
+	"scripts": {
+		"test": "jest --watch",
+		"coverage": "jest --coverage",
+		"build": "webpack",
+		"start": "webpack-dev-server --output-public-path=/build/"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.8.4",
+		"babel-core": "^6.26.3",
+		"babel-jest": "^25.1.0",
+		"babel-loader": "^8.0.6",
+		"babel-polyfill": "^6.26.0",
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-0": "^6.24.1",
+		"fetch-mock": "^9.0.0-beta.2",
+		"jest": "^25.1.0",
+		"jest-fetch-mock": "^3.0.1",
+		"webpack": "^4.41.5",
+		"webpack-dev-server": "^3.10.2"
+	},
+	"dependencies": {
+		"@types/jest": "^25.1.1"
+	}
+}

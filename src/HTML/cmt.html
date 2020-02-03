@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    </head>
+
+    <body>
+        <h1><b style='color: #ec3644;'>Contact</b> Management Tool</h1>
+
+        <!-- Main Table -->
+        <div class="cmt-table-container" id="cmt-table-container">
+            <div class="cmt-table-row">
+
+                <div class="cmt-table-column
+                cmt-avatar cmt-header" id="cmt-avatar">
+                    Avatar
+                </div>
+                <div class="cmt-table-column
+                cmt-name cmt-header" id="cmt-name">
+                    Contact Name
+                </div>
+                <div class="cmt-table-column
+                cmt-position cmt-header" id='cmt-position'>
+                    Job Position
+                </div>
+                <div class="cmt-table-column
+                cmt-fav cmt-header" id="cmt-fav">
+                    Fav
+                </div>
+                <div class="cmt-table-column
+                cmt-det cmt-header" id='cmt-det'>
+                    Details
+                </div>
+                <div class="cmt-table-column
+                cmt-sort cmt-header" id="cmtSort">
+                    <i class="fas fa-sort-amount-down"></i>
+                </div>
+                <div class="cmt-table-column
+                cmt-header cmt-add-entry-column" id="cmtAddNewEntry">
+                    Add <i class="fas fa-user-plus"></i>
+                </div>
+            </div>
+            <span id="tableBody"></span>
+
+        </div>
+        <!-- End of Main Table -->
+
+        <!-- Add Contact Modal -->
+        <div class="disable-modal" id="backdrop"></div>
+        <div class="disable-modal" id="newContactModal">
+            <div id="addNew">Add New Contact</div>
+
+            <label for="newContactFullName">Full Name</label>
+            <input type="text" id="newContactFullName" autocomplete="new"
+                placeholder="Enter your Full Name (mandatory)">
+            <label for="newContactEmail">Email</label>
+            <input type="email" id="newContactEmail" autocomplete="new" placeholder="Enter your Email (mandatory)">
+            <label for="newContactAddress">Address</label>
+            <input type="text" id="newContactAddress" autocomplete="new" placeholder="Enter your Address (optional)">
+
+            <button id="newContactCancelBtn">Cancel</button>
+            <button id="newContactSubmitBtn">Submit</button>
+        </div>
+        <!-- End of Add Contact Modal -->
+
+        <!-- Edit Modal -->
+        <div class="disable-edit-modal" id="backdrop-edit-modal"></div>
+        <div class="disable-edit-modal" id="edit-modal">
+            <div id='editCon'>Edit Contact</div>
+
+            <label for="editName">Name</label>
+            <input type="text" id="editName" autocomplete="new">
+
+            <label for="editFullName">Full Name</label>
+            <input type="text" id="editFullName" autocomplete="new">
+
+            <label for="editAvatar">Avatar</label>
+            <input type="text" id="editAvatar" autocomplete="new">
+
+            <label for="editPosition">Job Position</label>
+            <!-- <input type="text" id="editPosition" autocomplete="new"> -->
+            <select id="editPosition">
+                <option value="Backend_Developer">Backend_Developer</option>
+                <option value="DevOps_Engineer">DevOps_Engineer</option>
+                <option value="Frontend_Developer">Frontend_Developer</option>
+                <option value="Software_Developer">Software_Developer</option>
+                <option value="Human_Resources">Human_Resources</option>
+                <option value="Data_Scientist">Data_Scientist</option>
+                <option value="Project_Manager">Project_Manager</option>
+            </select>
+            </input>
+
+            <label for="editFav">Favorite</label>
+            <!-- <input type="boolean" id="editFav" autocomplete="new"> -->
+            <select id="editFav">
+                <option value="false">false</option>
+                <option value="true">true</option>
+            </select>
+
+            <label for="editEmail">Email</label>
+            <input type="text" id="editEmail" autocomplete="new">
+
+            <label for="editAddress">Address</label>
+            <input type="email" id="editAddress" autocomplete="new">
+
+            <button id="editCancelBtn">Cancel</button>
+            <button id="editSubmitBtn">Submit</button>
+        </div>
+        <!-- End of Edit Modal -->
+
+        <!-- Confirmation modal -->
+        <div class="disable-confirm-modal" id="backdrop-confirm-Modal"></div>
+        <div class="disable-confirm-modal" id="confirm-Modal">
+            <div id='delContact'>
+                Delete Contact
+            </div>
+            <div id='confirmDelContact'>
+                Are you sure?
+            </div>
+            <div class="confBtns">
+                <button id="confirmDeleteBtn">Delete</button>
+                <button id="confirmCancelBtn">Cancel</button>
+            </div>
+        </div>
+        <!-- End of Confirmation modal -->
+
+        <script src="../JS/main.js"></script>
+    </body>
+
+</html>
